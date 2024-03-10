@@ -9,11 +9,11 @@ router.post("/logout",
 verifyToken,
  userController.logoutUser);
 router.get("/profile", 
-verifyToken, 
+//verifyToken, 
 userController.getProfile);
 
 router.put("/profile", 
-verifyToken, 
+//verifyToken, 
 userController.updateProfile);
 router.post('/test', verifyToken, userController.test)
 
